@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #e8f9f3;
+    color: #006f11;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 50px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #006f11;
+}
+
+.dot {
+    color: #c9316f;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #006f11;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #6ec1e4;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.signin {
+    background: #6ec1e4;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin:hover {
+    background: #56a8cc;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #6ec1e4, #b8a9f0);
+    color: rgb(190, 252, 206);
+    padding: 60px 20px;
+}
+
+.hero-content {
+    max-width: 900px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #780f0f;
+    border-radius: 6px;
+}
+
+.terms {
+    font-size: 0.9em;
+    display: block;
+    margin: 10px 0;
+}
+
+.try-btn {
+    width: 100%;
+    background-color: #ff6b6b;
+    border: none;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.try-btn:hover {
+    background-color: #e45a5a;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+.social-icons img {
+    width: 25px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Info Section */
+.info {
+    background-color: #c8f0dc;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.1em;
+    color: #ffffff;
+    line-height: 1.6;
+}
